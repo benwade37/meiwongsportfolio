@@ -53,6 +53,11 @@
           <!-- mb-5 gives extra margin spacing under lead text -->
           <p class="lead mb-5">Let's create something amazing together!</p>
       </div>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary lg-col-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Subscribe to my newsletter!
+</button>
+<div>
   </section>
 </header>
 
@@ -103,7 +108,7 @@
             </div>
       </div> 
 </div>
-<div class="col-12 col-md-6">
+<div class="col-12 col-md-6 col-lg-12">
   <div class="card mb-3">
       <img src="assets/portfolio-images/wags-and-walks.webp" class="card-img-top"
           alt="A man walking several dogs early in the morning">
@@ -116,7 +121,7 @@
       </div>
   </div>
   </div>
-  <div class="col-12 col-md-6">
+  <div class="col-12 col-md-6 col-lg-12">
     <div class="card mb-3">
         <img src="assets/portfolio-images/bmi-calculator.webp" class="card-img-top"
             alt="Weighing scales seen from the first person view of the person standing on the scales">
@@ -127,7 +132,7 @@
         </div>
     </div>
   </div>
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-md-6 col-lg-12">
       <div class="card mb-3">
           <img src="assets/portfolio-images/math-wiz.webp" class="card-img-top"
               alt="A child practicing math at a computer">
@@ -139,7 +144,7 @@
           </div>
       </div>
       </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 col-lg-12">
           <div class="card mb-3">
               <img src="assets/portfolio-images/we-wellness.webp" class="card-img-top"
                   alt="A spa with candles towels and natural material">
@@ -161,47 +166,26 @@
     </div class="col-12 col-md-10 col-lg-8">
     <!-- Add your form here-->
     <form class="row g-3">
-      <div class="col-md-6">
-        <label for="inputEmail4" class="form-label">Email</label>
-        <input type="email" class="form-control" id="inputEmail4">
+      <div class="col-md-6 col-lg-6">
+        <label for="full-name" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="full-name">
       </div>
-      <div class="col-md-6">
-        <label for="inputPassword4" class="form-label">Password</label>
-        <input type="password" class="form-control" id="inputPassword4">
+      <div class="col-md-6 col-lg-6">
+        <label for="phonenumber" class="form-label">Phone Number</label>
+        <input type="number" class="form-control" id="phonenumber">
       </div>
-      <div class="col-12">
-        <label for="inputAddress" class="form-label">Address</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
-      <div class="col-12">
-        <label for="inputAddress2" class="form-label">Address 2</label>
-        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-      <div class="col-md-6">
-        <label for="inputCity" class="form-label">City</label>
-        <input type="text" class="form-control" id="inputCity">
-      </div>
-      <div class="col-md-4">
-        <label for="inputState" class="form-label">State</label>
-        <select id="inputState" class="form-select">
-          <option selected>Choose...</option>
-          <option>...</option>
-        </select>
-      </div>
-      <div class="col-md-2">
-        <label for="inputZip" class="form-label">Zip</label>
-        <input type="text" class="form-control" id="inputZip">
-      </div>
-      <div class="col-12">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck">
-          <label class="form-check-label" for="gridCheck">
-            Check me out
-          </label>
         </div>
       </div>
       <div class="col-12">
-        <button type="submit" class="btn btn-primary">Sign in</button>
+        <button type="submit" class="btn btn-primary">Send</button>
       </div>
     </form>
   </div>
